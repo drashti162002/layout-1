@@ -1,0 +1,182 @@
+/* common css start */
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+}
+img {
+    width: 100%;
+}
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0px;
+    padding: 0px;
+}
+a {
+    text-decoration: none;
+}
+ul, ol {
+    margin: 0px;
+    padding: 0px;
+}
+li {
+    list-style: none;
+}
+input, button {
+    box-shadow: none !important;
+    outline: none !important;
+}
+/* common css end */
+
+
+header{
+    background-color: blue;
+    text-align: center; 
+    font-size: medium;
+    height: 35px;
+}
+
+li{
+    display: inline;
+    font-size: 25px;
+}
+
+li a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+:before{
+    content:  "|" ;
+    color: #ffffff;
+    /* white-space: break-spaces; */
+    white-space: pre-wrap;
+}
+
+.download{
+    width: 250px;
+    background-color: lightgray;
+    height:630px;
+    /* margin-top: 0px; */
+}
+
+.photo1{
+    border-radius: 50%;
+    width: 150px;
+    height:150px;
+    margin-top: 15px;
+    margin-left: 43px;
+}
+
+.name{
+    text-align: center;
+}
+
+.hedding{
+    color: skyblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;  
+} 
+
+.photo2{
+    width: 700px;
+    height: 450px;
+    margin-right: 25px;
+}
+
+.detalis{
+    font-weight: lighter;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    /* flex-basis: content; */
+}
+
+.company{
+    background-color: rgb(214, 223, 232);
+    width: 680px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    padding: 6px;
+}
+
+.line{
+    font-size: 18px;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-weight: lighter;
+}
+
+.star{
+    height:40px;
+    width:110px;
+}
+
+.freebs{
+    color:rgb(10, 128, 255);
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.button1{
+    font-size: 20px;
+    color: white;
+    background-color: rgb(0, 145, 255);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+
+.last{
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 150px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    width: 1672px;
+}
+
+.main{
+    display: flex;
+    max-width: calc(100% - 250px);
+    margin-top: 22px;
+    flex-grow: 1;
+}
+
+#lower{
+    font-size: 15px;
+    font-family: Arial, Helvetica,"Helvetica Neue", sans-serif;
+    font-weight: lighter;
+}
+
+.l::before{
+    content:  "   |   " ;
+    color: #ffffff;
+    /* white-space: break-spaces; */
+    white-space: pre-wrap;
+}
+
+.copy{
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    color: rgba(178, 173, 173, 0.722)
+}
+
+.copyright{
+    height: 10px;
+    width: 10px;
+}
+
+.full{
+    display: flex;
+}
+
+.all{
+    flex:calc(100% - 250px);
+    margin-left: 22px;
+    margin-right: 20px;
+}
+
+
+
+
